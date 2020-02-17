@@ -1,0 +1,25 @@
+# Base linter configuration 
+# https://pub.dev/packages/lint
+include: package:lint/analysis_options.yaml
+
+# Dart Static Analysis Docs
+# https://dart.dev/guides/language/analysis-options
+
+# Available rules reference
+# https://dart-lang.github.io/linter/
+
+# Customize static analysis (exclude files, ignore specific rules, change their severity, etc)
+# analyzer:
+#   exclude: [build/**]
+#   errors:
+#     name_of_the_rule: ignore|info|warning|error
+
+# Enable/disable rules
+# linter:
+#   rules:
+#     name_of_the_rule: true|false
+
+# To suppress a specific rule on a specific line of code, place an 
+# ignore comment above it (e.g: // ignore: name_of_the_rule).
+# Note that an inline comment would work too, but the dart formatter
+# may move it below.
